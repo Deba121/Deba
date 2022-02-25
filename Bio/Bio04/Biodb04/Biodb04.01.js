@@ -1,676 +1,630 @@
 let quiz = {
-    chapter: 'The living World',
+    chapter: 'Animal Kingdom',
     topics: [
-        'Mordern',
-        'Antiant',
-        'Mediaval',
-        'Gandu',
-        'Animilia',
-        'Virus',
-        'Viroid',
-        'Prions',
+        'Non-Chordate',
+        'Chordate',
+        'Symmetry',
+        'Body Cavity',
+        'Hemichordata',
+        'Urochordata',
+        'Vertebrata',
     ],
-    title: 'The living World Ex1',
+    title: 'Animal Kingdom Ex1',
     colors: ['#096c86', '#096c8636', '#dbf6fb'],
     questions: [
         {
             question:
-                'Which is the most important but generally not used criteria for the identification of the species ?',
+                'Which of the protozoan is considered as connecting link between plants and animals ?',
+            options: ['Entamoeba ', 'Paramoecium', 'Euglena ', 'Monocystis'],
+            answer: 3,
+        },
+        {
+            question: 'In Platyhelminthes',
             options: [
-                'Interbreeding ',
-                'Morphology',
-                'Genetic material ',
+                'The embryonic layers, ectoderm and endoderm, are separated by mesoglea',
+                'The body is asymmentrical',
+                'There is tissue level of organization',
+                'The body cavity is absent',
+            ],
+            answer: 4,
+        },
+        {
+            question: 'Which one of the following organisms as diploblastic ?',
+            options: [
+                'Pennatula ',
+                'Paramoecium',
+                'Polystomella ',
+                'Entamoeba',
+            ],
+            answer: 1,
+        },
+        {
+            question: 'Radial symmetry occurs in',
+            options: ['fishes ', 'molluscs', 'star fishes ', 'sponges'],
+            answer: 3,
+        },
+        {
+            question:
+                'In coelomates, the problem of diffusion of food from gut to tissues is solved by',
+            options: [
+                'the presence of coelomic fluid',
+                'churning the food within the body cavity',
+                'developing a circulatory system',
+                'developing gut associated glands',
+            ],
+            answer: 3,
+        },
+        {
+            question: 'Which of the following is a fresh water sponge?',
+            options: ['Sycon ', 'Euspongia', 'Spongilla ', 'Pleurobrachia'],
+            answer: 3,
+        },
+        {
+            question: 'Comb jellies belong to',
+            options: ['Porifera ', 'Cnidaria', 'Ctenophora ', 'Corals'],
+            answer: 2,
+        },
+        {
+            question:
+                'Which one of the sponge part corresponds to the mouth of other animals ?',
+            options: [
+                'Osculum ',
+                'Incurrent canal',
+                'Ostia ',
+                'Excurrent canal',
+            ],
+            answer: 3,
+        },
+        {
+            question: 'Bath sponge is common name of',
+            options: [
+                'Spongilla ',
+                'Euspongia',
+                'Euplectella ',
+                'Leucosolenia',
+            ],
+            answer: 2,
+        },
+        {
+            question: 'Classification of porifera is based upon',
+            options: [
+                'spicules ',
+                'canal system',
+                'amoebocytes cells ',
+                'nutrition',
+            ],
+            answer: 1,
+        },
+        {
+            question: 'Cellular grade organisation is found in',
+            options: [
+                'helminthes ',
+                'coelenerata',
+                'porifera ',
+                'all of these',
+            ],
+            answer: 3,
+        },
+        {
+            question:
+                'The members of the following phylum are mostly marine and asymmetrical',
+            options: [
+                'Ctenophora ',
+                'Coelenterata',
+                'Porifera ',
+                'Echinodermata',
+            ],
+            answer: 3,
+        },
+        {
+            question: 'Spicules and amoebocytes in a sponge occur in its',
+            options: ['Pinacoderm ', 'Choanoderm', 'Mesenchyme ', 'Spongocoel'],
+            answer: 3,
+        },
+        {
+            question: 'Hydra is a coelenterate because it has',
+            options: [
+                'tentacles',
+                'mesogloea',
+                'coelenteron and cnidoblast',
+                'hypostome',
+            ],
+            answer: 3,
+        },
+        {
+            question: '"Portuguese man of war" is',
+            options: [
+                'soldier of world war I',
+                'portuguese soldier',
+                'a sponge',
+                'a polymorphic, colonial, colenterata',
+            ],
+            answer: 4,
+        },
+        {
+            question: 'Which one of the following is Coelentrate ?',
+            options: ['Sea cow ', 'Sea cucumber', 'Sea fan ', 'Sea horse'],
+            answer: 3,
+        },
+        {
+            question:
+                'Given are the four matches of phyla with their characteristic cells',
+            statement: [
+                'A. Coelenterata - Nematocytes',
+                'B. Porifera - Choanocytes',
+                'C. Ctenophora - Solenocytes',
+                'D. Platyhelminthes - Nephrocytes',
+            ],
+            options: ['A, B ', 'B, C', 'C, D ', 'B, D'],
+            answer: 1,
+        },
+        {
+            question: 'Filaria worm is',
+            options: [
+                'Trichuris ',
+                'Wauchereria bancrofti',
+                'Ascaris lumbricoides ',
+                'Ancylostoma',
+            ],
+            answer: 2,
+        },
+        {
+            question:
+                'Which of the following is commonly called ‘Pearl oyster’',
+            options: ['Limulus ', 'Pinctada', 'Dentalium ', 'Chaetoplenura'],
+            answer: 3,
+        },
+        {
+            question:
+                'Following organism is triploblastic, bilaterally symmetrical and marine, and respires through gills',
+            options: ['Echinus ', 'Hirudinaria', 'Balanoglossus ', 'Physalia'],
+            answer: 3,
+        },
+        {
+            question:
+                'Which of the following does not belong to phylum Coelenterata ?',
+            options: ['Sea pen ', 'Sea feather', 'Sea cucumber ', 'Sea fan'],
+            answer: 3,
+        },
+        {
+            question:
+                'The members of following phylum are exclusively marine, radially symmetrical and diploblastic',
+            options: [
+                'Porifera ',
+                'Echinodermata',
+                'Ctenophora ',
+                'Hemichordata',
+            ],
+            answer: 3,
+        },
+        {
+            question: 'Planaria, Liver fluke and Taenia solium are',
+            options: [
+                'All segmented ',
+                'All found in the gut',
+                'All have coelom ',
+                'All are flatworms',
+            ],
+            answer: 4,
+        },
+        {
+            question: 'Diploblastic acoelomate condition is found in',
+            options: ['Planaria ', 'ascaris', 'Rotifer ', 'sea anemone'],
+            answer: 4,
+        },
+        {
+            question: 'Annelids are',
+            options: [
+                'Radially symmetrical ',
+                'Externally segmented',
+                'Triploblastic ',
+                'Pseudocoelomate',
+            ],
+            answer: 3,
+        },
+        {
+            question: 'Which statement regarding Nereis is wrong ?',
+            options: [
+                'It has nephridium for excretion',
+                'It is metamerically segmented',
+                'It is monoecious',
+                'It has parapodia for swimming',
+            ],
+            answer: 3,
+        },
+        {
+            question: 'Example of living fossil in Arthropoda is :',
+            options: ['Cimex ', 'Triarthus', 'Peripatus ', 'Eupagurus'],
+            answer: 3,
+        },
+        {
+            question: 'Following is an oviparous mammal',
+            options: ['Delphinus ', 'Ornithorhynchus', 'Macropus ', 'Elephas'],
+            answer: 2,
+        },
+        {
+            question:
+                'Which of the following feature of bony fish is missing in cartilaginous fishes',
+            options: [
+                'Operculum ',
+                'Placoid scales',
+                'Poekilothermic ',
+                'Paired fins',
+            ],
+            answer: 1,
+        },
+        {
+            question: 'What distinguishes an insect from a crustacean ?',
+            options: [
+                'Number of eye',
+                'Arrangement of nerve cord',
+                'Number of appendages',
+                'Presence of wings',
+            ],
+            answer: 3,
+        },
+        {
+            question:
+                'Which of the following characteristic is shared by all Arthropods ?',
+            options: [
+                'Complete metamorphosis ',
+                'Wings',
+                'Jointed appendages ',
+                'Asexual reproduction',
+            ],
+            answer: 3,
+        },
+        {
+            question:
+                'Mark the correct match of the animal and its common name',
+            options: [
+                'Trygon dog fish',
+                'Ascidia lancelet',
+                'Pterophyllum flying fish',
+                'Myxine hagfish',
+            ],
+            answer: 4,
+        },
+        {
+            question: 'Which of the following is a limbless amphibian',
+            options: ['Salamander ', 'Ichthyophis', 'Pristis ', 'Cucumaria'],
+            answer: 2,
+        },
+        {
+            question: 'Chelone is commonly known as',
+            options: ['Garden lizard ', 'Tortoise', 'Flying lizard ', 'Turtle'],
+            answer: 4,
+        },
+        {
+            question: 'Sharks do not have',
+            options: ['Teeth ', 'Claspers', 'Air bladder ', 'Ventral mouth'],
+            answer: 3,
+        },
+        {
+            question:
+                'Which of the following animal is cold blooded and has 4 - chambered heart',
+            options: [
+                'Salamander ',
+                'Ornithorhynchus',
+                'Crocodile ',
+                'Calotes',
+            ],
+            answer: 3,
+        },
+        {
+            question: 'The following group is not a subphylum of Chordata',
+            options: [
+                'Urochordata ',
+                'Tetrapoda',
+                'Cephalochordata ',
+                'Vertebrata',
+            ],
+            answer: 2,
+        },
+        {
+            question:
+                'Member of Echinodermata has a specific system, which is not found in other phylum, it is',
+            options: [
+                'canal system ',
+                'water vascular system',
+                'respiratory system ',
+                'reproductive system',
+            ],
+            answer: 2,
+        },
+        {
+            question:
+                'Which of the following is found in both coelenterates and echinoderms in adult stage ?',
+            options: [
+                'Coelenteron ',
+                'Radial symmetry',
+                'Tube-feet ',
+                'Bilateral symmetry',
+            ],
+            answer: 2,
+        },
+        {
+            question: 'The animal with tube-feet is',
+            options: ['star-fish ', 'jelly-fish', 'silver-fish ', 'cray-fish'],
+            answer: 1,
+        },
+        {
+            question: 'Water vascular system is found in',
+            options: ['Hydra ', 'Leech', 'Fish ', 'Star-fish'],
+            answer: 4,
+        },
+        {
+            question: 'Salpa and Doliolum belong to',
+            options: [
+                'Cephalochordata ',
+                'Hemichordata',
+                'Tunicata ',
+                'Cyclostomata',
+            ],
+            answer: 3,
+        },
+        {
+            question: 'Antedon is commonly called :-',
+            options: ['Sea lily ', 'Brittle star', 'Sea-star ', 'Sea-cucumber'],
+            answer: 1,
+        },
+        {
+            question:
+                'One character is given wrongly for phylum chordata mark it',
+            options: [
+                'Presence of notochord',
+                'Presence of vertebral column',
+                'Paired gill slits',
+                'A central nervous system dorsal to digestive canal',
+            ],
+            answer: 2,
+        },
+        {
+            question:
+                'Which of the following is a chordate feature, not shared by the non-chordates ?',
+            options: [
+                'Metamerism ',
+                'Axial organization',
+                'Bilateral symmetry ',
+                'Pharyngeal gill slits',
+            ],
+            answer: 4,
+        },
+        {
+            question:
+                'In which of the following class of Annelida, one pair ovaries and several pair testes are found ?',
+            options: [
+                'Archiannelida ',
+                'Hirudinea',
+                'Oligochaeta ',
+                'Polychaeta',
+            ],
+            answer: 2,
+        },
+        {
+            question:
+                'Annelida and mollusca resemble in many embryonic features because both have',
+            options: [
+                'spiral cleavage and mesoderm formation',
+                'identical conspicuous segmentation in body, muscles and nervous system',
+                'meroblastic cleavage and ectoderm formation',
+                'special types of mouth parts',
+            ],
+            answer: 2,
+        },
+        {
+            question: 'The scientific name of Ostrich is',
+            options: ['Neophron ', 'Aptenodytes', 'Pavo ', 'Struthio'],
+            answer: 4,
+        },
+        {
+            question: 'The members of which group do not exhibit metamerism',
+            options: ['Pisces ', 'Aves', 'Arthropoda ', 'Mollusca'],
+            answer: 4,
+        },
+        {
+            question: 'Gambusia is a',
+            options: [
+                'parasitic fish',
+                'pest of fish',
+                'fish predator of mosquitos larva',
+                'mosquito spreading yellow fever',
+            ],
+            answer: 3,
+        },
+        {
+            question: 'Sea Hare is',
+            options: ['Sepia ', 'Teredo', 'Aplysia ', 'Pila'],
+            answer: 3,
+        },
+        {
+            question: 'Jaws are absent in',
+            options: [
+                'protochordata',
+                'protochordata and cyclostomata',
+                'Amphioxus and Balanoglossus',
+                'Herdmania and Myxine',
+            ],
+            answer: 2,
+        },
+        {
+            question: 'Scales in chondrichthyes are',
+            options: ['placoid ', 'ganoid', 'cycloid ', 'sesamoid'],
+            answer: 1,
+        },
+        {
+            question: 'Which one of the following is a cartilaginous fish?',
+            options: ['Silver fish ', 'Dog fish', 'Cray fish ', 'Star fish'],
+            answer: 2,
+        },
+        {
+            question: 'Heart of fishes is',
+            options: [
+                'one chambered ',
+                'two chambered',
+                'three chambered ',
+                'four chambered',
+            ],
+            answer: 2,
+        },
+        {
+            question: 'Hippocampus (Sea Horse) belongs to the class',
+            options: ['Agnatha ', 'Chondrichtyes', 'Osteichthyes ', 'Mammalia'],
+            answer: 3,
+        },
+        {
+            question: 'Fishes are',
+            options: [
+                'homoiothermic ',
+                'poikilothermic',
+                'Both a and b ',
                 'None of these',
             ],
-            answer: 1,
+            answer: 2,
         },
         {
             question:
-                'The living organisms can be unexceptionally distinguished from the non-living things on the basis of their ability for',
+                'Which of the following is characteristic feature of fishes ?',
             options: [
-                'interaction with the environment and progressive evolution',
-                'reproduction',
-                'growth and movement',
-                'responsiveness to touch',
+                'Tail and venous heart',
+                'Venous heart and gills',
+                'Epidermal scales and tail',
+                'Epidermal scales and gills',
             ],
             answer: 2,
         },
         {
-            question: 'Biological organisation starts with',
+            question:
+                'Which one of the following has an open circulatory system ?',
+            options: ['Periplaneta ', 'Hirudinaria', 'Octopus ', 'Pheretima'],
+            answer: 1,
+        },
+        {
+            question: 'Similarity between fish and tadpole is',
+            options: ['legs ', 'fins', 'lateral line ', 'scales'],
+            answer: 3,
+        },
+        {
+            question: 'What is the true for mammalia ?',
             options: [
-                'cellular level',
-                'organism level',
-                'atomic level',
-                'sub-microscopic molecular level',
+                'Platypus is oviparous',
+                'Bats have feather',
+                'Elephant is an ovo-viviparous',
+                'Diaphragm is absent in them',
             ],
+            answer: 1,
+        },
+        {
+            question:
+                'Which of the following character is not found in all the chordates ?',
+            options: [
+                'Diaphragm ',
+                'Coelom',
+                'Pharyngeal gill slits ',
+                'Dorsal nerve cord',
+            ],
+            answer: 1,
+        },
+        {
+            question:
+                'In which of the following animal post anal tail is found ?',
+            options: ['Earthworm ', 'Lower invertebrate', 'Scorpion ', 'Snake'],
             answer: 4,
         },
         {
             question:
-                'The growth and reproduction are mutually exclusive events in',
+                'In which of the following notochord is present in embryonic stage ?',
             options: [
-                'Plants only',
-                'Animals only',
-                'Higher animals and plants',
-                'Lower organisms',
-            ],
-            answer: 3,
-        },
-        {
-            question:
-                'The sum total of chemical reactions occurring in our body is called',
-            options: [
-                'Metabolism ',
-                'Homeostasis',
-                'Irritability ',
-                'Catabolism',
+                'All chordates ',
+                'Some chordates',
+                'Vertebrates ',
+                'Non-chordates',
             ],
             answer: 1,
         },
         {
-            question: 'Mark the correct statement',
-            options: [
-                'Only living organisms grow.',
-                'Plants grow only up to a certain age.',
-                'The growth in living organisms is from inside.',
-                'All of these',
-            ],
-            answer: 3,
-        },
-        {
             question:
-                'Which of the following biological processes do not operate within the life span of a given organism ?',
-            options: [
-                'Birth and nutrition',
-                'Growth and maturation',
-                'Metabolism and excretion',
-                'Decomposition and mineralization',
-            ],
+                'In which animal nerve cell is present but brain is absent ?',
+            options: ['Sponge ', 'Earthworm', 'Cockroach ', 'Hydra'],
             answer: 4,
         },
         {
             question:
-                'Growth development and functioning of living body is due to -',
-            options: ['Order ', 'Homeostasis', 'Metabolism ', 'Adaptation'],
-            answer: 3,
-        },
-        {
-            question:
-                'Which type of organisation is found in only living beings ?',
-            options: ['Atomic ', 'Molecular', 'Mixture ', 'Sub-cellular'],
-            answer: 4,
-        },
-        {
-            question: 'Organisation levels in living beings are -',
+                'One of the following is a very unique feature of the mammalian body',
             options: [
-                'Subcellular cellular individual community population',
-                'Atomic molecular subcellular cellular tissue organ individual',
-                'Individual population organ system tissue cellular molecular atomic',
-                'Atomic molecular tissue individual ecosystem community.',
-            ],
-            answer: 2,
-        },
-        {
-            question: 'Which of the following statement is false?',
-            options: [
-                'Properties of cellular organelles are present in the molecular constituents of the organelles.',
-                'Interactions among the molecular components of the organelles result into properties of cell organelles.',
-                'Biology is the story of life on earth.',
-                'Biology is the story of evolution of living organisms on earth.',
+                'Presence of diaphragm',
+                'Four chambered heart',
+                'Rib cage',
+                'Homeothermy',
             ],
             answer: 1,
         },
         {
-            question: 'A plant differs from an animal mainly in :',
+            question: 'An egg laying mammal is',
+            options: ['Kangaroo ', 'Platypus', 'Koala ', 'Whale'],
+            answer: 2,
+        },
+        {
+            question: 'The early stage human embryo distinctly possesses',
             options: [
-                'Protoplasm ',
-                'Vital activities',
-                'Nutrition ',
-                'Reproduction',
+                'Gills ',
+                'Gill slits',
+                'External ear (pinn1 ',
+                'Eye brows',
             ],
-            answer: 3,
+            answer: 2,
         },
         {
             question:
-                'Artificial system of classification classifies plants on the basis of',
+                'In Hydra, egestion of undigested food and excretion of nitrogeneous wastes occur through',
             options: [
-                'One or two characters',
-                'Phylogenetic trends',
-                'Many naturally existing characters',
-                'None of the above',
+                'mouth and tentacles',
+                'mouth and body wall',
+                'mouth and mouth',
+                'body wall and body wall',
             ],
+            answer: 2,
+        },
+        {
+            question: 'Which one of the animal of amphibia has no tongue?',
+            options: ['Amphiuma ', 'Ichthyophis', 'Necturus ', 'Salamander'],
+            answer: 2,
+        },
+        {
+            question: 'Which of the following is not found in birds ?',
+            options: [
+                'Hind limb ',
+                'Fore limb',
+                'Pelvic girdle ',
+                'Pectoral girdle',
+            ],
+            answer: 2,
+        },
+        {
+            question:
+                'Which type of respiratory organs are present in spiders and scropions ?',
+            options: ['Book lungs ', 'Gills', 'Gill books ', 'Lungs'],
             answer: 1,
         },
         {
-            question:
-                'Group of organisms that closely resemble each other and freely interbreed in nature, constitute ',
-            options: ['Species ', 'Genus', 'Family ', 'Taxon'],
-            answer: 1,
-        },
-        {
-            question: 'ICBN was first revised in',
-            options: ['1961 ', '1964', '1975 ', '1753'],
+            question: 'Flight muscles of bird are attached to',
+            options: ['clavicle ', 'coracoid', 'keel of sternum ', 'scapula'],
             answer: 3,
         },
         {
-            question: 'The term taxon refers to',
-            options: [
-                'Name of a species',
-                'Name of genus',
-                'Name of family',
-                'A taxonomic group of any rank',
-            ],
-            answer: 4,
-        },
-        {
-            question:
-                'The herbarium specimen on whose basis a new species is described for the first time is called as',
-            options: ['Syntype ', 'Holotype', 'Paratype ', 'Neotype'],
-            answer: 2,
-        },
-        {
-            question:
-                'The scientific naming of plants began with publication of Linnaeus book',
-            options: [
-                'Genera plantarum ',
-                'Systema naturae',
-                'Species plantarum ',
-                'Charaka sanhita',
-            ],
+            question: 'Flippers of seal are modified',
+            options: ['Fins ', 'Hind limb', 'Forelimb ', 'Gills'],
             answer: 3,
         },
         {
-            question: 'The basic unit of classification is',
-            options: ['Genus ', 'Species', 'Order ', 'All of these'],
-            answer: 2,
-        },
-        {
-            question:
-                'Individuals of same species having non-genetic differences due to environment are called',
-            options: ['Biotypes ', 'Ecotype', 'Ecophenes ', 'None of these'],
-            answer: 3,
-        },
-        {
-            question:
-                'Morphologically similar but reproductively isolated species are called',
+            question: 'Which character is not same in aves and mammals ?',
             options: [
-                'Neontological species ',
-                'Sibling species',
-                'Allopatric species ',
-                'Morpho-species',
-            ],
-            answer: 2,
-        },
-        {
-            question: 'Plant nomenclature means :',
-            options: [
-                'To give names to plants without any rules',
-                'Nomenclature of plants under the international rules',
-                'Nomenclature of plants in local language',
-                'Nomenclature of plants in english language',
-            ],
-            answer: 2,
-        },
-        {
-            question: 'Taxonomy refers to',
-            options: [
-                'Plant classification ',
-                'Plant nomenclature',
-                'Plant affinity ',
-                'All of these',
-            ],
-            answer: 4,
-        },
-        {
-            question: 'Which of the following is a correct name ?',
-            options: [
-                'Solanum tuberosum',
-                'Solanum Tuberosum',
-                'Solanum tuberosum Linn.',
-                'All of these',
+                'Single systemic arch',
+                'Metanephric kidney',
+                'Seven cervical vertebrae',
+                'Homoiotherms',
             ],
             answer: 3,
-        },
-        {
-            question: 'Systematics deals with',
-            options: [
-                'Classification ',
-                'Nomenclature',
-                'Plant description ',
-                'Plant exploration',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'Phylogeny refers to',
-            options: [
-                'Natural classification',
-                'Evolutionary classification',
-                'Evolutionary history',
-                'Origin of algae',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'Static concept of species is given by',
-            options: ['Linnaeus ', 'Bentham', 'Koch ', 'Mayr'],
-            answer: 1,
-        },
-        {
-            question: 'In taxonomy the first step is :',
-            options: [
-                'Identification ',
-                'Nomenclature',
-                'Classification ',
-                'Affinities',
-            ],
-            answer: 1,
-        },
-        {
-            question: 'The suffix - inae signifies the rank :',
-            options: ['Tribe ', 'Sub tribe', 'Sub order ', 'Sub family'],
-            answer: 2,
-        },
-        {
-            question:
-                'Species living in different geographical areas are called',
-            options: ['Allochronic ', 'Allopatric', 'Sympatric ', 'Siblings'],
-            answer: 2,
-        },
-        {
-            question: 'Biological concept of species proposed by',
-            options: ['Linnaeus ', 'Mayr', 'John Ray ', 'De Candolle'],
-            answer: 2,
-        },
-        {
-            question:
-                'For higher plants, flowers are chiefly used as a basis of classification, because',
-            options: [
-                'These show a great variety in colour',
-                'It can be preserved easily',
-                'Reproductive parts are more conservative than vegetative parts',
-                'None of these',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'The smallest unit of classification is',
-            options: ['Family ', 'Order', 'Genus ', 'Species'],
-            answer: 4,
-        },
-        {
-            question: 'A division is formed by combining several',
-            options: ['Orders ', 'Families', 'Classes ', 'Tribes'],
-            answer: 3,
-        },
-        {
-            question:
-                'What characters are used for declaration of new species of higher plants ?',
-            options: [
-                'Floral character of new species',
-                'Anatomical characters of new species',
-                'Physiological charactes of new species',
-                'Character of endosperm',
-            ],
-            answer: 1,
-        },
-        {
-            question: 'Evolutionary classification is called',
-            options: [
-                'Artificial system ',
-                'Natural system',
-                'Phylogenetic system ',
-                'None of the above',
-            ],
-            answer: 3,
-        },
-        {
-            question:
-                'Which of the following statements regarding nomenclature is correct ?',
-            options: [
-                'Generic name always begins with capital letter whereas specific name with small letter',
-                'Scientific name should be printed in italics',
-                'Scientific name when typed or handwritten should be underlined',
-                'All the above',
-            ],
-            answer: 4,
-        },
-        {
-            question: 'biological concept of species is mainly based on',
-            options: [
-                'Morphological features',
-                'Morphology and method of reproduction',
-                'Method of reproduction only',
-                'Reproductive isolation',
-            ],
-            answer: 4,
-        },
-        {
-            question:
-                'Which system classifies a plant in more than one groups ?',
-            options: [
-                'Practical classification',
-                'Artificial classification',
-                'Natural classification',
-                'Phylogenetic classification',
-            ],
-            answer: 1,
-        },
-        {
-            question: 'The term “New Systematics” was introduced by',
-            options: [
-                'Bentham and Hooker ',
-                'Linnaeus',
-                'Julian Huxley ',
-                'A.P. de Candolle',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'Classification given by Bentham and Hooker is',
-            options: ['Artificial ', 'Natural', 'Phylogenetic ', 'Numerical'],
-            answer: 2,
-        },
-        {
-            question: 'ficial system of classification was first used by',
-            options: [
-                'Linnaeus ',
-                'De Candolle',
-                'Pliny the Edler ',
-                'Bentham and Hooker',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'System of classification used by Linnaeus was',
-            options: [
-                'Natural system ',
-                'Artificial system',
-                'Phylogenetic system ',
-                'Asexual system',
-            ],
-            answer: 2,
-        },
-        {
-            question: 'mportant criterion for modern day classification is',
-            options: [
-                'Resemblances in morphology',
-                'Anatomical and physiological traits',
-                'Breeding habits',
-                'Presence or absence of notochord',
-            ],
-            answer: 2,
-        },
-        {
-            question: 'Binomial nomenclature means',
-            options: [
-                'One name given by two scientists',
-                'One scientific name consisting of a generic and specific epithet',
-                'Two names, one latinised, other of a person',
-                'Two names of same plant',
-            ],
-            answer: 2,
-        },
-        {
-            question: 'Phylogenetic classification is based on',
-            options: [
-                'Utilitarian system',
-                'Habits',
-                'Overall similarities',
-                'Common evolutionary descent',
-            ],
-            answer: 4,
-        },
-        {
-            question:
-                'Which of the following is less general in characters as compared to genus?',
-            options: ['Species ', 'Division', 'Class ', 'Family'],
-            answer: 1,
-        },
-        {
-            question:
-                'The practical purpose of classification of living organisms is to',
-            options: [
-                'explain the origin of living organsims',
-                'trace the evolution of living organsims',
-                'name the living organisms',
-                'facilitate identification of unknown organisms',
-            ],
-            answer: 4,
-        },
-        {
-            question: 'The five-kingdom classification was suggested by',
-            options: [
-                'Eichler ',
-                'Whittaker',
-                'Engler and Prantl ',
-                'Bentham & Hooker',
-            ],
-            answer: 2,
-        },
-        {
-            question:
-                'The disadvantage of using common names for species is that',
-            options: [
-                'the names may change',
-                'one name does not apply universally',
-                'one species may have several common names and one common name may be applied to two species',
-                'All of the above',
-            ],
-            answer: 4,
-        },
-        {
-            question:
-                'An organism is in the same class but not in the same family. It may belong to same',
-            options: ['Genus ', 'Species', 'Variety ', 'Order'],
-            answer: 4,
-        },
-        {
-            question: 'The order generally ends with',
-            options: ['Ales ', 'Aceae', 'Eae ', 'None of these'],
-            answer: 2,
-        },
-        {
-            question: 'Practical significance of taxonomy is',
-            options: [
-                'Classification',
-                'To understand diversity',
-                'To understand evolution',
-                'Identification of organisms',
-            ],
-            answer: 4,
-        },
-        {
-            question: 'Taxonomic hierarchy refers to',
-            options: [
-                'Step-wise arrangement of all categories for classification of plants and animals',
-                'A group of senior taxonomists who decide the nomenclature of plants and animals',
-                'A list of botanists or zoologists who have worked on taxonomy of a species or group',
-                'Classification of a species based on fossil record',
-            ],
-            answer: 1,
-        },
-        {
-            question: 'The ‘Birds’ taxonomically represent',
-            options: ['Family ', 'Order', 'Class ', 'Phylum'],
-            answer: 3,
-        },
-        {
-            question:
-                'Karyotaxonomy is a modern branch of classification which is based on',
-            options: [
-                'organic evolution',
-                'number of nuclei',
-                'number of chromosomes',
-                'trinomial nomenclature',
-            ],
-            answer: 3,
-        },
-        {
-            question: "57. Who is known as 'Father of Taxonomy'",
-            options: ['Huxley ', 'Linnaeus', 'Theophrastus ', 'None of these'],
-            answer: 2,
-        },
-        {
-            question: 'The systematic arrangement of taxa is called',
-            options: ['Key ', 'Taxonomy', 'Geneology ', 'Hierarchy'],
-            answer: 4,
-        },
-        {
-            question:
-                'The taxonomic status of an organism can be changed by changing',
-            options: [
-                'anatomy ',
-                'physiology',
-                'morphology ',
-                'genetic make up',
-            ],
-            answer: 4,
-        },
-        {
-            question: 'The standard size of herbarium sheets is',
-            options: [
-                '11.5" × 16.5" ',
-                '15.5" × 16.5"',
-                '18.5" × 10.5" ',
-                '20.5" × 21.5"',
-            ],
-            answer: 1,
-        },
-        {
-            question: 'Herbarium is',
-            options: [
-                'A garden where medicinal plants are grown',
-                'Garden where herbaceous plants are grown',
-                'Dry garden',
-                'Chemical to kill plants',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'Sequence of taxonomic categories is',
-            options: [
-                'Class – Phylum – Tribe – Order – Family – Genus – Species',
-                'Division – Class – Family – Tribe – Order – Genus – Species',
-                'Division – Class – Order – Family – Tribe – Genus – Species',
-                'Phylum – Order – Class – Tribe – Family – Genus – Species',
-            ],
-            answer: 3,
-        },
-        {
-            question:
-                '“Taxonomy without phylogeny is similar to bones without flesh” is the statement of',
-            options: [
-                'Oswald Tippo ',
-                'John Hutchinson',
-                'Takhtajan ',
-                'Bentham and Hooker',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'The famous botanical garden ‘Kew’ is located in',
-            options: ['England ', 'Lucknow', 'Berlin ', 'Australia'],
-            answer: 1,
-        },
-        {
-            question: 'The Indian Botanical garden is located in',
-            options: ['Howrah ', 'Lucknow', 'Mumbai ', 'Mysore'],
-            answer: 1,
-        },
-        {
-            question:
-                'Following taxonomic aid provides information for the identification of names of species found in an area',
-            options: ['Monograph ', 'Manual', 'Flora ', 'Periodical'],
-            answer: 2,
-        },
-        {
-            question: 'developed the ‘key’ for identification of animals?',
-            options: ['John Ray ', 'Goethe', 'Theophrastus ', 'George Cuvier'],
-            answer: 1,
-        },
-        {
-            question: 'An important function of botanical garden is',
-            options: [
-                'Providing beautiful area for recreation',
-                'One can observe tropical plants over there',
-                'They allow ex-situ conservation of germ plasm',
-                'They provide natural habitat to wildlife',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'ICBN stands for',
-            options: [
-                'International Code of Botanical Nomenclature',
-                'International Congress of Biological Names',
-                'Indian Code of Botanical Nomenclature',
-                'Indian Congress of Biological Names.',
-            ],
-            answer: 1,
-        },
-        {
-            question:
-                'As we go from species to kingdom in a taxonomic hierachy, the number of common characteristics',
-            options: [
-                'will decrease.',
-                'will increase.',
-                'remain same.',
-                'may increase or decrease.',
-            ],
-            answer: 1,
-        },
-        {
-            question:
-                'Which one of the following aspects is an exclusive characteristic of living things ?',
-            options: [
-                'Isolated metabolic reactions occur in vitro',
-                'Increase in mass from inside only',
-                'Perception of events happening in the environment and their memory',
-                'Increase in mass by accumulation of material both on surface as well as internally.',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'most important feature of all living systems is to',
-            options: [
-                'utilize oxygen to generate energy',
-                'replicate the genetic information',
-                'produce gametes',
-                'utilize solar energy for metabolic activities',
-            ],
-            answer: 2,
-        },
-        {
-            question: 'First life on earth was',
-            options: [
-                'Cyanobacteria',
-                'Chemoheterotrophs',
-                'Autotrophs',
-                'Phototrophs',
-            ],
-            answer: 2,
-        },
-        {
-            question: 'What is true for individuals of same species?',
-            options: [
-                'Live in same niche ',
-                'Live in same habitat',
-                'Interbreeding ',
-                'Live in different habitat',
-            ],
-            answer: 3,
-        },
-        {
-            question:
-                'Organisms which obtain energy by the oxidation of reduced inorganic compounds are called',
-            options: [
-                'photoautotrophs ',
-                'chemoautotrophs',
-                'saprozoic ',
-                'coproheterotrophs',
-            ],
-            answer: 2,
-        },
-    ],
+        }
+    ]
 };

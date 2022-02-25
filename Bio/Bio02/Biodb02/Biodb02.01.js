@@ -500,7 +500,7 @@ let quiz = {
             options: [
                 'Chlorophyll ‘a’ ',
                 'Chlorophyll ‘b’',
-                'Chlorphyll ‘c’ ',
+                'Chlorophyll ‘c’ ',
                 'Chlorophyll ‘d’',
             ],
             answer: 1,
