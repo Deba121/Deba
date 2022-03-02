@@ -44,6 +44,9 @@ body {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
 .container {
     display: flex;
     justify-content: center;

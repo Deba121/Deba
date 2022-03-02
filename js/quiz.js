@@ -395,7 +395,6 @@ submit.addEventListener('click', function () {
 
     side1.classList.remove('active');
     over1.classList.remove('active');
-    // side1.classList.add('inactive');
     over1.classList.add('inactive');
 
     Q_Box.classList.remove('active');
@@ -733,6 +732,8 @@ function setAgain() {
     minutes = Math.floor((nt % (1000 * 60 * 60)) / 1000);
 
     timer = setInterval(setTimer, 1000);
+
+    over1.classList.remove('inactive');
 
     setQuestion();
     setQuesList();
